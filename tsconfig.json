@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "ESNext",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "strictFunctionTypes": true,
+    "types": ["node", "vite/client"]
+  },
+  "include": [
+    "src/engine/*.ts",
+    "src/server/game/*.ts",
+    "src/app/game/*.ts"
+  ]
+}

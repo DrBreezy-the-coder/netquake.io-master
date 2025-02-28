@@ -1,0 +1,9 @@
+
+> webquake@1.0.0 build
+> rimraf ./dist && node ./build && tsc
+
+Webpack failed: Invalid configuration object. Webpack has been initialized using a configuration object that does not match the API schema.
+ - configuration.devtool should match pattern "^(inline-|hidden-|eval-)?(nosources-)?(cheap-(module-)?)?source-map$".
+   BREAKING CHANGE since webpack 5: The devtool option is more strict.
+   Please strictly follow the order of the keywords in the pattern.
+App build finished with errors
